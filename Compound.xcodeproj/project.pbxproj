@@ -11,7 +11,6 @@
 		FBC95B6A2D6E6BF900C24C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC95B572D6E6BF900C24C24 /* Assets.xcassets */; };
 		FBC95B6B2D6E6BF900C24C24 /* CompoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC95B3D2D6E6BF900C24C24 /* CompoundApp.swift */; };
 		FBC95B6C2D6E6BF900C24C24 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC95B3F2D6E6BF900C24C24 /* Models.swift */; };
-		FBC95B6D2D6E6BF900C24C24 /* Animation++.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC95B412D6E6BF900C24C24 /* Animation++.swift */; };
 		FBC95B6E2D6E6BF900C24C24 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC95B422D6E6BF900C24C24 /* Color++.swift */; };
 		FBC95B6F2D6E6BF900C24C24 /* Double++.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC95B432D6E6BF900C24C24 /* Double++.swift */; };
 		FBC95B702D6E6BF900C24C24 /* Encodable++.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC95B442D6E6BF900C24C24 /* Encodable++.swift */; };
@@ -63,7 +62,6 @@
 		FB76E7332D6BFA0E00EF34A4 /* CompoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC95B3D2D6E6BF900C24C24 /* CompoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundApp.swift; sourceTree = "<group>"; };
 		FBC95B3F2D6E6BF900C24C24 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		FBC95B412D6E6BF900C24C24 /* Animation++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation++.swift"; sourceTree = "<group>"; };
 		FBC95B422D6E6BF900C24C24 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
 		FBC95B432D6E6BF900C24C24 /* Double++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double++.swift"; sourceTree = "<group>"; };
 		FBC95B442D6E6BF900C24C24 /* Encodable++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable++.swift"; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 				FBC95B462D6E6BF900C24C24 /* Int++.swift */,
 				FBC95B482D6E6BF900C24C24 /* String++.swift */,
 				FBC95B432D6E6BF900C24C24 /* Double++.swift */,
-				FBC95B412D6E6BF900C24C24 /* Animation++.swift */,
 				FBC95B422D6E6BF900C24C24 /* Color++.swift */,
 				FBC95B452D6E6BF900C24C24 /* Font++.swift */,
 				FBC95B492D6E6BF900C24C24 /* View++.swift */,
@@ -433,7 +430,6 @@
 			files = (
 				FBC95B6B2D6E6BF900C24C24 /* CompoundApp.swift in Sources */,
 				FBC95B6C2D6E6BF900C24C24 /* Models.swift in Sources */,
-				FBC95B6D2D6E6BF900C24C24 /* Animation++.swift in Sources */,
 				FBC95B6E2D6E6BF900C24C24 /* Color++.swift in Sources */,
 				FBC95B6F2D6E6BF900C24C24 /* Double++.swift in Sources */,
 				FBC95B702D6E6BF900C24C24 /* Encodable++.swift in Sources */,

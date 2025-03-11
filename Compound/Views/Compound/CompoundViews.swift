@@ -247,40 +247,6 @@ struct EmptyDataView: View {
     }
 }
 
-
-struct CircleInitialsView: View {
-    let name: String
-    
-    private var initials: String {
-        name.components(separatedBy: String.space)
-            .prefix(2)
-            .compactMap { $0.first }
-            .map(String.init)
-            .joined()
-    }
-    
-    var body: some View {
-        ZStack {
-            Circle()
-                .fill(
-                    LinearGradient(
-                        colors: [Color.primaryLight, Color.primary.opacity(0.4)],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-                .overlay(
-                    Circle()
-                        .stroke(Color.primary.opacity(0.15), lineWidth: 1)
-                )
-            Text(initials)
-                .font(.headline1)
-                .fontWeight(.bold)
-                .foregroundColor(.primary)
-        }
-    }
-}
-
 struct CompoundCard<Content: View>: View {
     let content: Content
     
@@ -667,14 +633,6 @@ struct SortOptionsView<Option: Identifiable & CaseIterable & RawRepresentable & 
         }
         .plainButton()
     }
-}
-
-protocol LoadableView: View {
-    associatedtype LoadingState
-    var isLoading: Bool { get }
-    var isEmpty: Bool { get }
-    var hasError: Bool { get }
-    func loadData() async throws
 }
 
 struct ContentLoadingView<Content: View, EmptyContent: View, LoadingContent: View>: View {
